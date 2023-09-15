@@ -1654,4 +1654,27 @@ body.nill-dark {
   }
 }
 
+/* Position the WhatsApp icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px; /* Adjust this value to control the distance from the bottom */
+  right: 20px; /* Adjust this value to control the distance from the right */
+  z-index: 1000; /* Adjust this value if needed to control the stacking order */
+}
+
+/* Style the WhatsApp icon as needed */
+.whatsapp-icon img {
+  width: 50px; /* Adjust the width and height to fit your icon */
+  height: 50px;
+  border-radius: 50%; /* Makes the icon round (for a circular icon) */
+  background-color: #25d366; /* WhatsApp green color, you can change it */
+  padding: 10px; /* Adds some padding around the icon */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
+}
+
+/* Hover effect (optional) */
+.whatsapp-icon img:hover {
+  background-color: #128c7e; /* Change the color on hover */
+}
+
 /*# sourceMappingURL=style.css.map */
